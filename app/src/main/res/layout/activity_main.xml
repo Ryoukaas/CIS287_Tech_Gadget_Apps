@@ -7,12 +7,12 @@
     tools:context=".MainActivity" >
 
     <TextView
+
+        android:id="@+id/gadget"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/gadget"
-        android:textSize="18sp"
+        android:drawableStart="@drawable/ic_launcher"
         android:text="@+id/gadget"
-        android:drawableLeft="@drawable/ic_launcher_game_controller_background"
-    />
+        android:textSize="18sp" />
 
 </RelativeLayout>
