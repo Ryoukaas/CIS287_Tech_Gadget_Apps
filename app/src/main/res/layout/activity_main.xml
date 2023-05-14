@@ -4,4 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"/>
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gadget"
+        android:textSize="18sp"
+        android:text="@+id/gadget"
+        android:drawableLeft="@drawable/ic_launcher_game_controller_background"
+    />
+
+</RelativeLayout>
