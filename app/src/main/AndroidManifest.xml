@@ -22,6 +22,18 @@
             android:label="Nintendo Switch"
             android:exported="false" />
         <activity
+            android:name=".XboxSeriesX"
+            android:label="Xbox Series X"
+            android:exported="false" />
+        <activity
+            android:name=".Playstation5"
+            android:label="Playstation 5"
+            android:exported="false" />
+        <activity
+            android:name=".GamingComputer"
+            android:label="Gaming Computer"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

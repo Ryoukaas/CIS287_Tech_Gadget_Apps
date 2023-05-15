@@ -10,8 +10,7 @@ public class MainActivity extends ListActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        String[] gadgets={"Nintendo Switch", "Steam Deck"};
+        String[] gadgets={"Nintendo Switch", "Steam Deck", "Xbox Series X", "Playstation 5", "Gaming Computer"};
         setListAdapter(new ArrayAdapter<String>(this, R.layout.activity_main, R.id.gadget, gadgets));
     }
 }
