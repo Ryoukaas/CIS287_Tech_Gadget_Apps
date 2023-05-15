@@ -3,4 +3,7 @@
     <string name="Names">Logan Morris and Kat Griffin</string>
     <string name="btnNintendo">Nintendo Switch Page</string>
     <string name="btnSteam">Steam Deck Page</string>
+    <string name="btnXbox">Xbox Series X Page</string>
+    <string name="btnPlaystation5">PlayStation 5 Page</string>
+    <string name="btnGamingComputer">Gaming Computer Page</string>
 </resources>

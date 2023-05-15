@@ -22,10 +22,6 @@
             android:label="Nintendo Switch"
             android:exported="false" />
         <activity
-            android:name=".XboxSeriesX"
-            android:label="Xbox Series X"
-            android:exported="false" />
-        <activity
             android:name=".Playstation5"
             android:label="Playstation 5"
             android:exported="false" />
