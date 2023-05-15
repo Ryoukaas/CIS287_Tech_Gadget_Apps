@@ -28,7 +28,7 @@ public class MainActivity extends ListActivity {
                 startActivity(new Intent(MainActivity.this, SteamDeck.class));
                 break;
             case 2:
-
+                startActivity(new Intent());
                 break;
             case 3:
 
