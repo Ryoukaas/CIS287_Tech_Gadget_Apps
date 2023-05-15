@@ -11,7 +11,7 @@
         android:id="@+id/gadget"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:drawableStart="@drawable/ic_launcher"
+        android:drawableLeft="@drawable/gamecontroller"
         android:text="@+id/gadget"
         android:textSize="18sp" />
 
