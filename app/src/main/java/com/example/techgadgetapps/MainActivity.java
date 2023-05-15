@@ -14,7 +14,7 @@ public class MainActivity extends ListActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        String[] gadgets = {"Nintendo Switch", "Steam Deck"};
+        String[] gadgets = {"Nintendo Switch", "Steam Deck", "Xbox Series X", "Playstation 5", "Gaming Computer"};
         setListAdapter(new ArrayAdapter<String>(this, R.layout.activity_main, R.id.gadget, gadgets));
     }
 
@@ -28,13 +28,13 @@ public class MainActivity extends ListActivity {
                 startActivity(new Intent(MainActivity.this, SteamDeck.class));
                 break;
             case 2:
-                startActivity(new Intent());
+                startActivity(new Intent(MainActivity.this, XboxSeriesX.class));
                 break;
             case 3:
-
+                startActivity(new Intent(MainActivity.this, Playstation5.class));
                 break;
             case 4:
-
+                startActivity(new Intent(MainActivity.this, GamingComputer.class));
                 break;
         }
     }
